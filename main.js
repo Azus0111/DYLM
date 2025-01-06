@@ -1,7 +1,7 @@
 const yesButton = document.getElementById('yes')
 const noButton = document.getElementById('no')
 yesButton.addEventListener('click', () => (
-    alert('Omg! I love you, too')
+    alert('Hehe ngại quá tui cũng bít là tui đẹp chai òi <33')
 ))
 noButton.addEventListener('mouseover', () => {
     noButton.style.position = 'absolute'
