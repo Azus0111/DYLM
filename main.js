@@ -10,3 +10,10 @@ noButton.addEventListener('mouseover', () => {
     noButton.style.left = newX + 'px'
     noButton.style.top = newY + 'px'
 })
+noButton.addEventListener('clickclick', () => {
+    noButton.style.position = 'absolute'
+    let newX = Math.floor(Math.random()*window.innerWidth)
+    let newY = Math.floor(Math.random()*window.innerHeight)
+    noButton.style.left = newX + 'px'
+    noButton.style.top = newY + 'px'
+})
